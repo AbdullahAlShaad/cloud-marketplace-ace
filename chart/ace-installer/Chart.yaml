@@ -1,0 +1,16 @@
+apiVersion: v2
+appVersion: v2024.7.4
+description: ACE Installer GCP
+icon: https://cdn.appscode.com/images/products/kubeops/icons/android-icon-192x192.png
+maintainers:
+- email: support@appscode.com
+  name: appscode
+name: ace-installer-gcp
+version: 0.0.1
+dependencies:
+  - name: ace-installer
+    version: v2024.5.3
+    repository: oci://ghcr.io/appscode-charts
+  - name: flux2
+    version: 2.13.0
+    repository: oci://ghcr.io/appscode-charts

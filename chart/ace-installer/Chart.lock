@@ -1,0 +1,9 @@
+dependencies:
+- name: ace-installer
+  repository: oci://ghcr.io/appscode-charts
+  version: v2024.5.3
+- name: flux2
+  repository: oci://ghcr.io/appscode-charts
+  version: 2.13.0
+digest: sha256:a6172739a9e7c0ce5af9494072533aa07ddecbce00ef6ea73f2d53d3ddfb913d
+generated: "2024-07-16T11:59:30.839161131+06:00"
