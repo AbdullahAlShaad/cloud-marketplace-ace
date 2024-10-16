@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac0846d6-10e6-4731-8602-9661899d2cee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/chart/ace-installer/requirements.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chart/ace-installer/templates/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/init.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gcp-marketplace-ace.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gcp-marketplace-ace.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +44,7 @@
     "git-widget-placeholder": "master",
     "go.import.settings.migrated": "true",
     "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "/home/shaad/go/src/go.bytebuilders.dev/installer",
+    "last_opened_file_path": "/home/shaad/go/src/github.com/AbdullahAlShaad/gcp-marketplace-ace",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm"
@@ -52,8 +53,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-gosdk-33c477a475b1-e0158606a674-org.jetbrains.plugins.go.sharedIndexes.bundled-GO-241.15989.157" />
-        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-GO-241.15989.157" />
+        <option value="bundled-gosdk-5df93f7ad4aa-df9ad98b711f-org.jetbrains.plugins.go.sharedIndexes.bundled-GO-242.23339.24" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-GO-242.23339.24" />
       </set>
     </attachedChunks>
   </component>
