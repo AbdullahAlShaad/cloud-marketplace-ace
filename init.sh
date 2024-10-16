@@ -3,6 +3,9 @@
 VAR1=$1
 VAR2=$2
 VAR3=$3
+VAR4=$4
+VAR5=$5
+VAR6=$6
 
 exec >/tmp/userdata.log 2>&1
 
@@ -20,4 +23,9 @@ log() {
 echo "Wecome from init script" > /tmp/log.txt
 
 log "Hello from init"
-log "Variables are $VAR1 , $VAR2, $VAR3"
+log "INFO" "VAR1 -> $VAR1"
+log "INFO" "VAR2 -> $VAR2"
+log "INFO" "VAR3 -> $VAR3"
+log "INFO" "VAR4 -> $VAR4"
+log "INFO" "VAR5 -> $VAR5"
+log "INFO" "VAR6 -> $VAR6"
