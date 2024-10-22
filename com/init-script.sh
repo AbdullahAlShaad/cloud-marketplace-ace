@@ -1,7 +1,5 @@
 #!/bin/bash
 
-export DEBIAN_FRONTEND=noninteractive
-
 ACE_PLATFORM=$1
 API_SECRET=$2
 APPLICATION_NAME=$3
@@ -13,6 +11,10 @@ RESOURCE_GROUP=$7
 sudo su
 HOME="/root"
 cd $HOME
+
+export DEBIAN_FRONTEND=noninteractive
+apt-get -y update
+apt upgrade -y
 set -xeo pipefail
 exec >/root/userdata.log 2>&1
 
