@@ -1,11 +1,14 @@
 #!/bin/bash
 
-API_SECRET=$1
-APPLICATION_NAME=$2
-INSTALLER_URL=$3
-LOCATION=$4
-PUBLIC_IP=$5
-RESOURCE_GROUP=$6
+export DEBIAN_FRONTEND=noninteractive
+
+ACE_PLATFORM=$1
+API_SECRET=$2
+APPLICATION_NAME=$3
+INSTALLER_URL=$4
+LOCATION=$5
+PUBLIC_IP=$6
+RESOURCE_GROUP=$7
 
 sudo su
 HOME="/root"
@@ -124,7 +127,7 @@ az_cli() {
     ACCESS_KEY=$(az storage account keys list --account-name ${STORAGE_ACCOUNT_NAME} | jq -r '.[0].value')
 
     #call the webhook here
-    resp=$(curl -X POST https://appscode.com/marketplace/api/v1/marketplaces/azure/notification/resource?secret=${API_SECRET} \
+    resp=$(curl -X POST https://appscode."$ACE_PLATFORM"/marketplace/api/v1/marketplaces/azure/notification/resource?secret=${API_SECRET} \
       -H "Content-Type: application/json" \
       -d '{
             "eventType": "BIND",
